@@ -1,8 +1,8 @@
 Package: KONPsurv
 Type: Package
 Title: KONP Tests: Powerful K-Sample Tests for Right-Censored Data
-Version: 1.0.1
-Date: 2019-03-16
+Version: 1.0.2
+Date: 2019-11-18
 Author: Matan Schlesinger [cre, aut],
   Malka Gorfine [aut]
 Maintainer: Matan Schlesinger <matan.schles@gmail.com>
@@ -14,8 +14,9 @@ License: GPL (>= 2)
 Imports: survival,Rcpp (>= 0.12.16)
 LinkingTo: Rcpp
 RoxygenNote: 6.1.1
+Encoding: UTF-8
 Suggests: testthat
 NeedsCompilation: yes
-Packaged: 2019-03-19 20:34:47 UTC; Matan
+Packaged: 2019-11-18 15:49:13 UTC; Matan
 Repository: CRAN
-Date/Publication: 2019-03-19 22:53:34 UTC
+Date/Publication: 2019-11-18 16:10:12 UTC
