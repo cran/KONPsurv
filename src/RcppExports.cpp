@@ -5,6 +5,11 @@
 
 using namespace Rcpp;
 
+#ifdef RCPP_USE_GLOBAL_ROSTREAM
+Rcpp::Rostream<true>&  Rcpp::Rcout = Rcpp::Rcpp_cout_get();
+Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
+#endif
+
 // binary_search_km_ge
 int binary_search_km_ge(NumericVector array, double pattern);
 RcppExport SEXP _KONPsurv_binary_search_km_ge(SEXP arraySEXP, SEXP patternSEXP) {
